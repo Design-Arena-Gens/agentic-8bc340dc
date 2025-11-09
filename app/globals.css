@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --off-white: #F8F9FA;
+  --mist-gray: #E4E8EB;
+  --charcoal: #2D3436;
+  --mint-aqua: #5FD4C8;
+  --tangerine: #FF9F66;
+
+  --lemon-lime: #C8E86E;
+  --berry: #D946A6;
+  --mango: #FFBD3F;
+  --cola: #8B4513;
+  --watermelon: #FF6B6B;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--off-white);
+  color: var(--charcoal);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
